@@ -72,7 +72,7 @@ body {
   color: #fd7e14;
 }
 
-@media only screen and (min-device-width: 414px) and (max-device-width: 896px) and (-webkit-min-device-pixel-ratio: 2) {
+@media screen and (min-device-width: 414px) and (max-device-width: 896px) and (-webkit-min-device-pixel-ratio: 2) {
   .image {
     /* Regole per ridimensionare l'immagine */
     width: 70%; /* Esempio: riduce la dimensione al 50% della larghezza originale */
