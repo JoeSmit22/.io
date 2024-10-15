@@ -21,16 +21,16 @@ body {
     background: url("https://joesmit22.github.io/grportfolio.github.io/img/4.png"); 
     
     /* Anima lo sfondo in modo continuo */
-    -webkit-animation: bg-scrolling-reverse 25s linear infinite;
-    -moz-animation: bg-scrolling-reverse 25s linear infinite;
-    -o-animation: bg-scrolling-reverse 25s linear infinite;
-    animation: bg-scrolling-reverse 25s linear infinite;
+    -webkit-animation: bg-scrolling-reverse 20s linear infinite;
+    -moz-animation: bg-scrolling-reverse 20s linear infinite;
+    -o-animation: bg-scrolling-reverse 20s linear infinite;
+    animation: bg-scrolling-reverse 20s linear infinite;
   
     /* Anima in avanti */
-    -webkit-animation: bg-scrolling 25s linear infinite;
-    -moz-animation: bg-scrolling 25s linear infinite;
-    -o-animation: bg-scrolling 25s linear infinite;
-    animation: bg-scrolling 25s linear infinite;
+    -webkit-animation: bg-scrolling 20s linear infinite;
+    -moz-animation: bg-scrolling 20s linear infinite;
+    -o-animation: bg-scrolling 20s linear infinite;
+    animation: bg-scrolling 20s linear infinite;
   }
 
 
