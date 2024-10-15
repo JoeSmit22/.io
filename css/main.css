@@ -72,7 +72,6 @@ body {
   color: #fd7e14;
 }
 
-
 @media screen and (max-width: 785px) {
   .header1 {
     font-size: 8vw;
@@ -81,7 +80,7 @@ body {
     font-size: 4vw;
   }
   .image {
-    width: 50%;   /* Imposta una larghezza fissa per i dispositivi mobili */
+    width: 70%;   /* Imposta una larghezza fissa per i dispositivi mobili */
     height: auto;  /* Mantiene le proporzioni */
   }
 }
@@ -100,7 +99,7 @@ body {
     font-size: 5vw;
   }
   .image {
-    width: 50%;  /* Imposta una larghezza fissa per i dispositivi mobili */
+    width: 70%;  /* Imposta una larghezza fissa per i dispositivi mobili */
     height: auto;  /* Mantiene le proporzioni */
   }
 }
