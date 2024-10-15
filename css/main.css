@@ -72,13 +72,6 @@ body {
   color: #fd7e14;
 }
 
-@media screen and (min-device-width: 414px) and (max-device-width: 896px) and (-webkit-min-device-pixel-ratio: 2) {
-  .image {
-    /* Regole per ridimensionare l'immagine */
-    width: 70%; /* Esempio: riduce la dimensione al 50% della larghezza originale */
-    height: 70%; /* Mantiene le proporzioni */
-  }
-}
 
 @media screen and (max-width: 785px) {
   .header1 {
@@ -86,6 +79,10 @@ body {
   }
   .link1 {
     font-size: 4vw;
+  }
+  .image {
+    width: 150px;  /* Imposta una larghezza fissa per i dispositivi mobili */
+    height: auto;  /* Mantiene le proporzioni */
   }
 }
 
@@ -101,6 +98,10 @@ body {
   }
   .link1 {
     font-size: 5vw;
+  }
+  .image {
+    width: 150px;  /* Imposta una larghezza fissa per i dispositivi mobili */
+    height: auto;  /* Mantiene le proporzioni */
   }
 }
 
