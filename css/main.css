@@ -81,7 +81,7 @@ body {
     font-size: 4vw;
   }
   .image {
-    width: 150px;  /* Imposta una larghezza fissa per i dispositivi mobili */
+    width: 50%;   /* Imposta una larghezza fissa per i dispositivi mobili */
     height: auto;  /* Mantiene le proporzioni */
   }
 }
@@ -100,7 +100,7 @@ body {
     font-size: 5vw;
   }
   .image {
-    width: 150px;  /* Imposta una larghezza fissa per i dispositivi mobili */
+    width: 50%;  /* Imposta una larghezza fissa per i dispositivi mobili */
     height: auto;  /* Mantiene le proporzioni */
   }
 }
