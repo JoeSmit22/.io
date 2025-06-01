@@ -15,43 +15,23 @@ body {
 }
 
 #particles-js {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  overflow: hidden;
-  background: url("https://joesmit22.github.io/.io/img/4.png");
-  animation: bg-scrolling 15s linear infinite;
-  z-index: -1;
-}
-
-.particle {
-  position: absolute;
-  border-radius: 50%;
-  background-color: white;
-  width: 4px;
-  height: 4px;
-  opacity: 0.6;
-  animation: float 20s linear infinite;
-}
-
-@keyframes float {
-  0% {
-    transform: translateY(100vh) translateX(0);
-    opacity: 0;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: url("https://joesmit22.github.io/.io/img/4.png"); 
+    
+    /* Anima lo sfondo in modo continuo */
+    -webkit-animation: bg-scrolling-reverse 15s linear infinite;
+    -moz-animation: bg-scrolling-reverse 15s linear infinite;
+    -o-animation: bg-scrolling-reverse 15s linear infinite;
+    animation: bg-scrolling-reverse 15s linear infinite;
+  
+    /* Anima in avanti */
+    -webkit-animation: bg-scrolling 15s linear infinite;
+    -moz-animation: bg-scrolling 15s linear infinite;
+    -o-animation: bg-scrolling 15s linear infinite;
+    animation: bg-scrolling 15s linear infinite;
   }
-  10% {
-    opacity: 0.5;
-  }
-  100% {
-    transform: translateY(-10vh) translateX(30px);
-    opacity: 0;
-  }
-}
-
-@keyframes bg-scrolling {
-  0% { background-position: 0 0; }
-  100% { background-position: 0 1000px; }
-}
 
 .center {
   position: absolute;
