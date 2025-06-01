@@ -14,11 +14,6 @@ body {
 
 }
 
-.main-content {
-  position: relative;
-  z-index: 1;
-}
-
 #particles-js {
     position: absolute;
     width: 100%;
